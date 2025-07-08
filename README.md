@@ -18,17 +18,19 @@ The main objective is to apply **transfer learning** and evaluate its performanc
 
 ---
 
-## 🗂 Project Structure
+## 📁 Project Structure
 
+
+project-root/
 ├── dataset/ # Sorted and split dataset (train/val/test)
 │ ├── train/
 │ ├── validation/
 │ └── test/
 ├── notebooks/ # Training, evaluation, and EDA notebooks
 ├── models/ # Saved models and weights
-├── utils/ # Helper scripts (e.g. metrics, plots)
+├── utils/ # Helper scripts (e.g., metrics, plots)
 ├── src/ # Optional: training pipeline code
-└── README.md # This file
+└── README.md # Project overview and instructions
 
 
 ---
