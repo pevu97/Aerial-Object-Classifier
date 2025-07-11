@@ -20,10 +20,6 @@ The main objective is to apply **transfer learning** and evaluate its performanc
 
 ## 📁 Project Structure
 
-- `dataset/` – contains raw and/or cleaned datasets
--    ├── `train/` 
--    ├── `validation/`
--    ├── `test/`
 - `notebooks/` – exploratory and training notebooks
 - `src/` – modular Python scripts (data prep, training, evaluation)
 - `models/` – saved models and weights
