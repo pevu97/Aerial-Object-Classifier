@@ -70,8 +70,10 @@ You can limit training to a smaller subset depending on data availability or per
 - 🔹 Last 5 convolutional layers set as trainable
 - 🔹 Custom top:
   - `Flatten`
-  - `Dense(256, activation='relu')`
+  - `Dense(512, activation='relu')`
+  - `BatchNormalization()`
   - `Dropout(0.5)`
+  - `Dense(256, activation='relu')`
   - `Dense(7, activation='softmax')`
 
 ---
@@ -80,7 +82,7 @@ You can limit training to a smaller subset depending on data availability or per
 
 | Epoch | Validation Accuracy | Validation Loss |
 |-------|---------------------|-----------------|
-| 20    | 0.81                | 0.60            |
+| 41    | 0.84                | 0.51            |
 
 The confusion matrix and prediction examples are available in the notebook for visual inspection and performance analysis.
 
