@@ -97,5 +97,5 @@ The confusion matrix and prediction examples are available in the notebook for v
 To clone and run this project:
 
 ```bash
-git clone https://github.com/your-username/galaxy-classification-cnn.git
-cd galaxy-classification-cnn
+git clone https://github.com/pevu97/Galaxy-Image-Classifier.git
+cd Galaxy-Image-Classifier
