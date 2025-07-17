@@ -82,9 +82,13 @@ You can limit training to a smaller subset depending on data availability or per
 
 | Epoch | Validation Accuracy | Validation Loss |
 |-------|---------------------|-----------------|
-| 41    | 0.84                | 0.51            |
+| 39    | 0.87                | 0.41            |
 
 The confusion matrix and prediction examples are available in the notebook for visual inspection and performance analysis.
+
+![Accuracy plot](https://kocotmeble.com/wp-content/uploads/2025/07/newplot-1.png)
+![Accuracy plot](https://kocotmeble.com/wp-content/uploads/2025/07/newplot.png)
+
 
 
 
