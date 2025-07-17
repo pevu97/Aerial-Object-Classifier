@@ -32,11 +32,6 @@ def imports():
 
      
 
-imports()
-     
-
-def download_data():
-  !wget https://zenodo.org/records/10845026/files/Galaxy10_DECals.h5
 
 def data_organization():
   with h5py.File('Galaxy10_DECals.h5', 'r') as f:
