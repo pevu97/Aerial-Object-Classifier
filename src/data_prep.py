@@ -99,41 +99,6 @@ def split_dataset(source_dir, output_dir, split=(0.7, 0.2, 0.1), seed=42):
 
 if __name__ == "__main__":
     split_dataset("sorted_images", "dataset", split=(0.7, 0.2, 0.1))
+
+
      
-
-def show_sample_images_per_class():
-
-  base_dir = "/content/sorted_images"
-  class_names = sorted(os.listdir(base_dir))[:6]  # wybierz 4 klasy
-
-  plt.figure(figsize=(10, 10))
-
-  for i, class_name in enumerate(class_names):
-      class_dir = os.path.join(base_dir, class_name)
-      image_name = random.choice(os.listdir(class_dir))  # losowe zdjęcie
-      image_path = os.path.join(class_dir, image_name)
-
-      img = Image.open(image_path)
-
-      class_labels = {
-      '0': 'Disturbed',
-      '1': 'Merger',
-      '2': 'Round Smooth',
-      '3': 'In-between Smooth',
-      '4': 'Cigar Shaped Smooth',
-      '5': 'Barred Spiral Galaxy',
-      '6': 'Unbarred Spiral Galaxy'
-      }
-
-      name_tag = class_labels.get(class_name, 'Inna klasa')
-
-
-      plt.subplot(3, 3,i + 1)
-      plt.imshow(img)
-      plt.title(f"Klasa: {name_tag}")
-      plt.axis("off")
-
-  plt.tight_layout()
-  plt.show()
-
-  print(img.size)
