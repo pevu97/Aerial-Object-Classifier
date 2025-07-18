@@ -20,9 +20,7 @@ The main objective is to apply **transfer learning** and evaluate its performanc
 
 ## 📁 Project Structure
 
-- `notebook/` – exploratory and training notebooks
-- `src/` – modular Python scripts (data prep, training, evaluation)
-- `models/` – saved models and weights
+- `notebook/` – exploratory and training notebook
 - `README.md` – this file
 
 
