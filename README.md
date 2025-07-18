@@ -1,5 +1,5 @@
 # 🌌 Galaxy Image Classification with VGG19
-
+![Samples](https://kocotmeble.com/wp-content/uploads/2025/07/pobierz.png)
 ## 📌 Project Overview
 
 This project focuses on **classifying galaxies based on their morphology** using convolutional neural networks (CNNs), particularly a fine-tuned **VGG19** model. It leverages the **Galaxy10_DECals** dataset to distinguish between different types of galaxies such as spiral, elliptical, mergers, and more.
@@ -41,8 +41,9 @@ The main objective is to apply **transfer learning** and evaluate its performanc
    - Accuracy
    - Confusion matrix
    - Classification report
-
+     
 ---
+![Augmentation](https://kocotmeble.com/wp-content/uploads/2025/07/pobierz-1.png)
 
 ## 🧪 Galaxy Classes
 
@@ -88,7 +89,7 @@ The confusion matrix and prediction examples are available in the notebook for v
 ![Accuracy plot](https://kocotmeble.com/wp-content/uploads/2025/07/newplot.png)
 
 
-
+![Confusion matrix](https://kocotmeble.com/wp-content/uploads/2025/07/pobierz-2.png)
 
 ## 🚀 Getting Started
 
